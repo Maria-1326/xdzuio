@@ -6,6 +6,7 @@ class AppImages {
   static String googleMaps = '${images_path}googleMaps.png';
   static String splash = '${images_path}splash.png';
   static String xdzuio = '${images_path}xdzuio.png';
+  static String text = '${images_path}text.png';
 
   static String svg_path = "assets/svg/";
   // // //SVG Images....
@@ -21,4 +22,6 @@ class AppImages {
   static String loyalty = '${svg_path}loyalty.svg';
   static String email = '${svg_path}email.svg';
   static String creditCard = '${svg_path}credit_card.svg';
+  static String gridview = '${svg_path}gridview.svg';
+  static String listview = '${svg_path}listview.svg';
 }

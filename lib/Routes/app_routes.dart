@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:xdzuio_app/View/Auth/signin.dart';
+import 'package:xdzuio_app/View/Auth/signup.dart';
 import 'package:xdzuio_app/View/Auth/splash.dart';
-
+import 'package:xdzuio_app/View/Home/productpreview.dart';
 
 class AppRoutes {
   static const String splashScreen = '/SplashScreen';
-  // static const String selectionsScreen = '/SelectionsScreen';
-  // static const String docLogin = '/DocLogin';
-  // static const String docSignup = '/DocSignup';
+  static const String signin = '/SignIn';
+  static const String signup = '/SingUp';
+   static const String productpreview = '/ProductPreview';
   // static const String docSuccess = '/DocSuccess';
   // static const String docDashboard = '/DocDashboard';
   // static const String doctorBottomAppbar = '/DoctorBottomAppbar';
@@ -29,9 +31,9 @@ class AppRoutes {
 
   static Map<String, WidgetBuilder> get routes => {
         splashScreen: (_) => SplashScreen(), //(),
-        // selectionsScreen: (_) => SelectionsScreen(),
-        // docLogin: (_) => DocLogin(),
-        // docSignup: (_) => DocSignup(),
+        signin: (_) => SignIn(),
+        signup: (_) => SignUp(),
+         productpreview: (_) => ProductPreview(),
         // docSuccess: (_) => DocSuccess(),
         // docDashboard: (_) => DocDashboard(),
         // doctorBottomAppbar: (_) => DoctorBottomAppbar(),
